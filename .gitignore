@@ -1,0 +1,18 @@
+# 1. Инициализация репозитория
+git init
+
+# 2. Добавить все файлы
+git add .
+
+# 3. Первый коммит
+git commit -m "Initial commit: Reminder Application"
+
+# 4. Создать репозиторий на GitHub (через браузер)
+# Зайди на https://github.com/new и создай новый репозиторий
+
+# 5. Добавить remote (замени USERNAME и REPO_NAME)
+git remote add origin https://github.com/USERNAME/REPO_NAME.git
+
+# 6. Отправить на GitHub
+git branch -M main
+git push -u origin main
